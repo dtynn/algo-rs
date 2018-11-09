@@ -5,6 +5,13 @@ pub struct StackWithGetMin {
 }
 
 impl StackWithGetMin {
+    pub fn new() -> Self {
+        StackWithGetMin {
+            elements: Vec::new(),
+            mins: Vec::new(),
+        }
+    }
+
     pub fn push(&mut self, n: i32) {
         self.elements.push(n);
         if self.mins.is_empty() {
