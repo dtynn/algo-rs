@@ -1,0 +1,6 @@
+[package]
+name = "algo-rs"
+version = "0.1.0"
+authors = ["dtynn <dtynn@163.com>"]
+
+[dependencies]
