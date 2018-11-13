@@ -84,6 +84,8 @@ mod tests {
 }
 
 mod better {
+    #![allow(dead_code)]
+
     fn prime_factors(n: i32) -> i32 {
         let mut nb = n;
         let mut i = 2;
