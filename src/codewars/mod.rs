@@ -17,3 +17,5 @@ pub mod weight_for_weight;
 pub mod probabilities_for_sums_in_rolling_cubic_dice;
 
 pub mod consecutive_k_primes;
+
+pub mod primes_in_numbers;
